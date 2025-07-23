@@ -3,6 +3,9 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     border: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .nav {
     height: 60px;
@@ -350,6 +353,10 @@ transition-duration:1s;
     align-items: center;
     color: white;
     font-size: 0.85rem;
+}
+.back a{
+    color:white;
+    text-decoration:none;
 }
 
 .foot-panel1 {
